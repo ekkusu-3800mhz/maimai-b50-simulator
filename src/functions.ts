@@ -40,7 +40,7 @@ function computeRa(ds: number, achievement: number): number {
     } else if (achievement < Achievement.Sp) {
         baseRa = 20.0
     } else if (achievement < Achievement.SS) {
-        baseRa = 20.0
+        baseRa = 20.3
     } else if (achievement < Achievement.SSp) {
         baseRa = 20.8
     } else if (achievement < Achievement.SSS) {
